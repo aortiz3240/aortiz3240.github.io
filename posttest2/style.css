@@ -1,0 +1,80 @@
+body{
+    margin:0;
+    background-color: lightcyan;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#logo{
+    width: 40%;
+    height: 40%;
+    margin: 15px; 
+}
+
+header{
+    background-color:darkblue;
+}
+
+#links li{
+    display: inline;
+    padding: 15px;
+}
+
+nav{
+    background-color: purple;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+#links a{
+    color: white;
+    text-decoration: none;
+}
+
+#links li:hover {
+    background-color: black;
+}
+
+section{
+    padding: 20px;
+}
+
+table, th, td{
+    border-collapse: collapse;
+    border: 1px solid black;
+    padding: 30px
+}
+
+caption{
+    border-collapse: collapse;
+    padding: 30px
+}
+
+th{
+    background-color: black;
+    color: white;
+}
+
+caption{
+    font-size: 20px;
+    background-color: lightseagreen;
+    color: white;
+}
+
+
+
+.castimg {
+    width: 150px;
+    height: 150px;
+    border: 1px solid purple;
+    border-radius: 10px;
+}
+
+.castimg:hover {
+    transform: scale(1.3);
+}
+
+dd{
+    padding-bottom: 20px;
+}
+
+
