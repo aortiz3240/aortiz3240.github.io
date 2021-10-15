@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Contact Us </title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <header>
+            <a href="index.html">
+                <img id="logo" src="images/Logo.jpg">
+            </a>
+            <h1 id="title">Mr. Clean Cleaning Services</h1>
+        </header>
+
+        <nav>
+            <ul id="links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="service.html">Services</a></li>
+                <li><a href="employees.html">Employee Directory</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <a id="cart-link" class="navbar-brand" href="cart.html">Checkout (0)</a>
+
+            </ul>
+        </nav>
+
+        <section>
+            <h1>Contact Us</h1>
+            <form action="action_page.php" method="GET" target="_blank">
+                <label for="firstName">First Name:</label><br>
+                <input type="text" id="firstName" name="firstName"> <br>
+
+                <label for="lastName">Last Name:</label><br>
+                <input type="text" id="lastName" name="lastName"> <br>
+
+                <label for="phone">Phone:</label><br>
+                <input type="phone" id="phone" name="phone"> <br>  
+
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email"> <br>                              
+
+                <!---CHECKBOXES FOR COURSES-->
+                <fieldset>
+                    <legend>Services</legend>
+                    <input type="checkbox" id="office" name="office" value="office">
+                    <label for="office">Office Buildings</label>
+
+                    <input type="checkbox" id="health" name="health" value="health">
+                    <label for="health">Healthcare Enviroments</label><br>
+
+                    <input type="checkbox" id="education" name="education" value="education">
+                    <label for="education">Education Buildings</label>
+
+                    <input type="checkbox" id="home" name="home" value="home">
+                    <label for="home">Homes</label>
+                </fieldset>
+
+                <label for="message">Type your message</label><br>
+                <textarea name="message" id="message" cols="30" rows="10">
+
+                </textarea>
+                <br>
+
+                <input type="submit" value="Click to submit"><input type="reset" value="Reset form">
+
+            </form>
+        </section>
+
+        <footer>    
+            <p>&copy; 2021 Mr.Clean 123 Main St. Mcallen TX, <a href="tel:956-555-6666"> 956-555-6666 ,</a> <a href="ai@gmail.com">email</a> </p>
+        </footer>
+    </body>
+</html>
